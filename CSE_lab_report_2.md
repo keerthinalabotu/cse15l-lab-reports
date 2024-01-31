@@ -97,16 +97,25 @@ certain characters which is then stored in the `String [] parameters`.
 
 # Part 2
 
+
 <img width="276" alt="part1" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/97cf4e90-faf4-48e5-86f8-564c69329628">
+
+<img width="388" alt="shortone" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/e183c9b2-9059-4046-ad00-a7be2b32f07b">
+
+<img width="484" alt="otherRightOne" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/1f5a8aaa-7a07-4e14-8fa7-823670e86743">
 
 <img width="243" alt="part2" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/822b9a7a-48fa-480b-9426-aad14ad49698">
 
 <img width="484" alt="part3" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/7dc8ca8a-0908-42c1-949a-c6890d3a72ee">
 
+
 The screenshots above show how I used `ls` to get into the directory that contained the private and public keys shown by `id_rsa.` for the private 
 key and `id_rsa.pub.` for the public key. The third screenshot shows the absolute paths to the private key (first) and the public key (second) after 
 the private key. Both of these are present in the `.ssh` directory so I eventually used `ls` to get to it.
 
+To eventually get to a place where you don't have to sign into your ieng6 account, we have to use `scp <path to your public SSH key> user@ieng6.ucsd.edu:~/.ssh/authorized_keys` which I used. The following screenshot shows the process of being able to login without having to use my password again.
+
+<img width="502" alt="logging_in" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/d102658c-8165-4f6b-a024-fa52fb9c671a">
 
 # Part 3
 
