@@ -95,8 +95,6 @@ class ChatServer {
 ```
 
 
-<img width="607" alt="ThridPartOfChatServer" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/f8d65f80-c43b-4ad8-bdb1-2079f491e08d">
-
 <img width="481" alt="1line" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/fcf69211-3935-42c3-a690-57fa2d021763">
 
 <img width="487" alt="2line" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/d31389c7-f5de-4e6f-b069-4fecb98207e7">
@@ -107,7 +105,7 @@ class ChatServer {
 
 **Which methods are called in this code?**
 
-The methods called within the part using `/add-message` include `.getQuery()`, `.split()`, `.add()`, `.get()`, and `.size()`. 
+The methods called within the part using `/add-message` include `handleRequest()`, `.getQuery()`, `.split()`, `.add()`, `.get()`, and `.size()`. 
 Most of these methods are called on the `ArrayList` that was declared previously called tracking.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
@@ -117,6 +115,7 @@ and eventually return the formatted version of it.
 
 The methods called/relevant arguments include:
 
+`handleRequest()` -- the argument for this is the URL    
 `.getpath()` -- there was no argument within this, rather the output we get from that was used to call the `.equals()` method
 on the argument "/" which is the defualt where the user doesn't put anything else into the url.
 
