@@ -9,23 +9,27 @@ Code of Chat Server:
 
 **Which methods are called in this code?**
 
-The code has two classes, one being the actual class ChatServer, and the other being the Class Handler (containing that /add-message). The methods
-called within the ChatServer class include the `parseInt` method and the `.start` method. The Handler class has several
-methods called including the `.getpath()` method as well as `.size()` and `.get()` from the ArrayList class. We also used
+The code has two classes, one being the actual class `ChatServer`, and the other being the Class `Handler` (containing that /add-message). The methods
+called within the `ChatServer` class include the `parseInt` method and the `.start` method. The `Handler` class has several
+methods called including the `.getpath()` method as well as `.size()` and `.get()` from the `ArrayList` class. We also used
 the `.getQuery()` and `.split()` in order to process the input url and split it based on the input characters. Lastly, we
 also used the `.add()` method and `.contains()` methods.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
 The methods that are used are `parseInt()` as well as `.start()`. The relevant arguments for `.parseInt()` is the 
-integer that we want to convert into a string. In this case the argument passed in is args[0]. 
+integer that we want to convert into a string. In this case the argument passed in is `args[0]`. 
 
-The other method, the `.start()` takes in two arguments, one being the Handler and the other being the port in which 
+The other method, the `.start()` takes in two arguments, one being the `Handler` and the other being the port in which 
 we are running the server. It looks like `.start(port, new Handler())`.
+
+The relevant fields of the class is mainly just the `ArrayList` called `tracking` for the Handler class and there are no arguments passed into the `ChatServer` class.
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
-When `.parseInt()` is carried out, the field passed in which is `args[0]` is changed to a string format. In addition, the 
+There no actual fields for the ChatServer class, however there are fields for the Handler class in which the `ArrayList called `tracking`  does not change either with any of the methods. This is because we return a `String` created within the `Handler` class. 
+
+In addition, the 
 `.start()` method creates a `new Handler()` but doesn't change any existing fields of the class. 
 
 
@@ -49,12 +53,12 @@ When `.parseInt()` is carried out, the field passed in which is `args[0]` is cha
 
 **Which methods are called in this code?**
 
-The methods called within the part using /add-message include `.getQuery()`, `.split()`, `.add()`, `.get()`, and `.size()`. 
-Most of these methods are called on the ArrayList that was declared previously called tracking.
+The methods called within the part using `/add-message` include `.getQuery()`, `.split()`, `.add()`, `.get()`, and `.size()`. 
+Most of these methods are called on the `ArrayList` that was declared previously called tracking.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
-The fields in the Handler class that I created was the ArrayList tracking in order to keep track of all the user input
+The fields in the `Handler` class that I created was the `ArrayList` tracking in order to keep track of all the user input
 and eventually return the formatted version of it. 
 
 The methods called/relevant arguments include:
@@ -62,12 +66,12 @@ The methods called/relevant arguments include:
 `.getpath()` -- there was no argument within this, rather the output we get from that was used to call the `.equals()` method
 on the argument "/" which is the defualt where the user doesn't put anything else into the url.
 
-In `/add-message` section:`.size()` -- there is no argument for this method of the ArrayList class, rather it is called upon the list itself. 
+In `/add-message` section:`.size()` -- there is no argument for this method of the `ArrayList` class, rather it is called upon the list itself. 
 
 In `/add-message` section:`.get()` -- the argument for this passed into the method was the index of the location that we wanted.
 
 `.contains()` -- this method was used after the `.getpath()` method in order to see if the user input contained the 
-desired string. the argument passed in was the desired string
+desired string. The argument passed in was the desired string.
 
 In `/add-message` section:`.add()` -- this method was used to add onto tracking, the input argument is the element that we want to add.
 
@@ -80,18 +84,18 @@ later split using the `.split()` method which takes in an argument that represen
 on the argument "/" which is the defualt where the user doesn't put anything else into the url. Eventually
 the existing tracking field is returned with no changes made.
 
-In `/add-message` section: `.size()` -- there is no change because of this, the size of the existing ArryaList is returned.
+In `/add-message` section: `.size()` -- there is no change because of this, the size of the existing `ArryaList` is returned.
 
-In `/add-message` section: `.get()` -- the is no change for this either, it's just getting what is already existing in the ArrayList.
+In `/add-message` section: `.get()` -- the is no change for this either, it's just getting what is already existing in the `ArrayList`.
 
-`.contains()` -- there is no change becuase of this method either since it is merely checking if the input contains
-certain characters
+`.contains()` -- there is no change because of this method either since it is merely checking if the input contains
+certain characters.
 
 In `/add-message` section: `.add()` -- this does change the existing tracking field since we're adding onto it.
 
 In `/add-message` section: `.getQuery()` -- this doesn't change any fields since it's just retrieving the user input. 
 
-In `/add-message` section: `.split()` -- this doens't change the field tracking list but, it does change the user input by spliting at
+In `/add-message` section: `.split()` -- this doesn't change the field tracking list but, it does change the user input by spliting at
 certain characters which is then stored in the `String [] parameters`.
 
 
