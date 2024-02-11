@@ -94,11 +94,6 @@ class ChatServer {
 }
 ```
 
-<img width="554" alt="FirstPartOfChatServer" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/cf3b36d7-8e7f-48da-8df5-8d54133b8efa">
-
-**this is the part specifically for `/add-message`:**
-
-<img width="597" alt="SecondPartofChatServer" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/06a85086-7dbf-4a34-9330-4305229d701e">
 
 <img width="607" alt="ThridPartOfChatServer" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/f8d65f80-c43b-4ad8-bdb1-2079f491e08d">
 
