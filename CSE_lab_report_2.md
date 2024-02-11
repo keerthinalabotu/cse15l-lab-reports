@@ -35,6 +35,65 @@ In addition, the
 
 **Screenshots of how the `/add-message` works:**
 
+```
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+
+    //created ArrayList to keep track of the strings passed in
+    ArrayList<String> tracking = new ArrayList<>();
+
+    public String handleRequest(URI url) {
+        //default: if nothing is passed into the url
+        if (url.getPath().equals("/")) {
+            
+            String formatted = "";
+
+            for (int i =0; i<tracking.size(); i++){
+                formatted=tracking.get(i)+"\n";
+            }
+            return formatted;
+
+        //if messages are added, this will run
+        } else {
+            if (url.getPath().contains("/add-message")) {
+                String[] parameters = url.getQuery().split("=");
+                String[] fullySplit =parameters[1].split("&");
+                String add = parameters[2]+ ": "+ fullySplit[0];
+                tracking.add(add);
+
+                String formatted = "";
+
+                for (int i =0; i<tracking.size(); i++){
+                    formatted+=tracking.get(i)+"\n";
+                }
+
+                return formatted;
+                
+            }
+            return "404 Not Found!";
+        }
+    }
+}
+
+class ChatServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
+
 <img width="554" alt="FirstPartOfChatServer" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/cf3b36d7-8e7f-48da-8df5-8d54133b8efa">
 
 **this is the part specifically for `/add-message`:**
