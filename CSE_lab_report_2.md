@@ -27,7 +27,7 @@ The relevant fields of the class is mainly just the `ArrayList` called `tracking
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
-There no actual fields for the ChatServer class, however there are fields for the Handler class in which the `ArrayList called `tracking`  does not change either with any of the methods. This is because we return a `String` created within the `Handler` class. 
+There no actual fields for the ChatServer class, however there are fields for the Handler class in which the `ArrayList` called `tracking`  does not change either with any of the methods. This is because we return a `String` created within the `Handler` class. 
 
 In addition, the 
 `.start()` method creates a `new Handler()` but doesn't change any existing fields of the class. 
