@@ -159,8 +159,6 @@ certain characters which is then stored in the `String [] parameters`.
 
 <img width="388" alt="shortone" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/e183c9b2-9059-4046-ad00-a7be2b32f07b">
 
-<img width="484" alt="otherRightOne" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/1f5a8aaa-7a07-4e14-8fa7-823670e86743">
-
 <img width="243" alt="part2" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/822b9a7a-48fa-480b-9426-aad14ad49698">
 
 <img width="484" alt="part3" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/7dc8ca8a-0908-42c1-949a-c6890d3a72ee">
