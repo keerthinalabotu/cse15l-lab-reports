@@ -154,14 +154,14 @@ certain characters which is then stored in the `String [] parameters`.
 
 # Part 2
 
+The screenshot below is for finding the absolute path to the private key within my local machine. The absolute path I used was `C:\Users\keert\.ssh`. I then used `ls` to get the contents of the directory where the private key `id_rsa` was located.
 
-<img width="276" alt="part1" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/97cf4e90-faf4-48e5-86f8-564c69329628">
+<img width="372" alt="pwd" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/a95184a7-1e00-49f7-a39b-7e02b02715a7">
 
-<img width="388" alt="shortone" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/e183c9b2-9059-4046-ad00-a7be2b32f07b">
+The screenshot below is for finding the absolute path to the public key within my ieng6 machine. The absolute path used was 
+`/home/linux/ieng6/oce/38/knalabotu/.ssh` shown by the `pwd` and soon after when I used `ls` I got the contents of the directory including the public key which is `id_rsa.pub`.
 
-<img width="243" alt="part2" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/822b9a7a-48fa-480b-9426-aad14ad49698">
-
-<img width="484" alt="part3" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/7dc8ca8a-0908-42c1-949a-c6890d3a72ee">
+<img width="514" alt="pwd1" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/8426b280-6028-4936-9c85-260c4f148714">
 
 
 The screenshots above show how I used `ls` to get into the directory that contained the private and public keys shown by `id_rsa.` for the private 
