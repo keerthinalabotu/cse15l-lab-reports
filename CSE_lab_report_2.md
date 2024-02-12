@@ -164,9 +164,9 @@ The screenshot below is for finding the absolute path to the public key within m
 <img width="514" alt="pwd1" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/8426b280-6028-4936-9c85-260c4f148714">
 
 
-The screenshots above show how I used `ls` to get into the directory that contained the private and public keys shown by `id_rsa.` for the private 
-key and `id_rsa.pub.` for the public key. The third screenshot shows the absolute paths to the private key (first) and the public key (second) after 
-the private key. Both of these are present in the `.ssh` directory so I eventually used `ls` to get to it.
+The screenshots above show how I used `ls` to get into the directory that contained the private and public keys shown by `id_rsa.` for the private key and `id_rsa.pub.` for the public key. The two screenshots show how I used `cd` to get into 
+the directories in which they were stored. Then I used `pwd` to get the absolute path and lastly `ls` to see the
+contents of the absolute path.
 
 To eventually get to a place where you don't have to sign into your ieng6 account, we have to use `scp <path to your public SSH key> user@ieng6.ucsd.edu:~/.ssh/authorized_keys` which I used. The following screenshot shows the process of being able to login without having to use my password again.
 
