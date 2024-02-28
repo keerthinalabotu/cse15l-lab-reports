@@ -7,7 +7,7 @@
 
 <img width="445" alt="ieng6_log in" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/bfe09e5e-3c9b-4ad9-a62b-b3b8bdee44be">
 
-Keys pressed: used `cd` to get into lab 7, pressed `<enter>`, then typed out `ssh knalabotu@ieng6.ucsd.edu`, pressed `<enter` and put in my password and then pressed `<enter>`
+Keys pressed: pressed `<enter>`, then typed out `ssh knalabotu@ieng6.ucsd.edu`, pressed `<enter` and put in my password and then pressed `<enter>`
 
 # Step 5
 
@@ -15,6 +15,7 @@ Keys pressed: used `cd` to get into lab 7, pressed `<enter>`, then typed out `ss
 
 <img width="475" alt="git_clone" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/9c5b1b84-9d85-4573-9ae5-faebcacb3f0d">
 
+Keys pressed: used `<enter>`and typed `git clone git@github.com:keerthinalabotu/cse15l-lab-reports.git` which was the ssh link for cloning. Pressed `<enter> again and it cloned. 
 
 # Step 6
 
@@ -22,6 +23,7 @@ Keys pressed: used `cd` to get into lab 7, pressed `<enter>`, then typed out `ss
 
 <img width="483" alt="errors_test sh" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/637e3381-e426-420d-aced-32a898bb70ea">
 
+Keys pressed: Used `<enter>` to get to the next command, and then typed `cd lab7` to get into the `lab7` directory. Pressed `<enter>` to get to the next command and typed `bash test.sh` to run the tests. Recieved the output shown in the screenshot above.  
 
 # Step 7
 
