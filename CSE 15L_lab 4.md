@@ -23,7 +23,7 @@ Keys pressed: used `<enter>`and typed `git clone git@github.com:keerthinalabotu/
 
 <img width="483" alt="errors_test sh" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/637e3381-e426-420d-aced-32a898bb70ea">
 
-Keys pressed: Used `<enter>` to get to the next command, and then typed `cd lab7` to get into the `lab7` directory. Pressed `<enter>` to get to the next command and typed `bash test.sh` to run the tests. Recieved the output shown in the screenshot above.  
+Keys pressed: Used `<enter>` to get to the next command, and then typed `cd lab7` to get into the `lab7` directory. Pressed `<enter>` to get to the next command and typed `bash test.sh` to run the tests and `<enter>`. Recieved the output shown in the screenshot above.  
 
 # Step 7
 
@@ -31,7 +31,7 @@ Keys pressed: Used `<enter>` to get to the next command, and then typed `cd lab7
 
 <img width="518" alt="vim_edit" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/79bf4347-6ff5-42a8-8537-7562304968eb">
 
-Keys pressed: In order to be able to edit the code and see what test was failing I first used `<enter>` to get to the next line and put in the command `ls` to see what differetn files were available. Pressed `<enter>` again and used `vim ListExamples.java` to get the ability to edit the `ListExamples.java` file. Pressed `<up> <up> <up> <up> <up> <up>` `<l> <l> <l> <l> <l> <l> <l> <l> <l> <l> <l>` and then pressed `<i>` to insert and `2`. Then `<l>` and on top of the `1` I pressed `x` to delete it. Used `:wq` to save and exit. 
+Keys pressed: In order to be able to edit the code and see what test was failing I first used `<enter>` to get to the next line and put in the command `ls` to see what differetn files were available. Pressed `<enter>` again and used `vim ListExamples.java` and `<enter>` to get the ability to edit the `ListExamples.java` file. Pressed `<up> <up> <up> <up> <up> <up>` `<l> <l> <l> <l> <l> <l> <l> <l> <l> <l> <l>` and then pressed `<i>` to insert and `2`. Then `<l>` and on top of the `1` I pressed `x` to delete it. Used `:wq` and `<enter>` to save and exit. 
 
 # Step 8
 
@@ -39,11 +39,11 @@ Keys pressed: In order to be able to edit the code and see what test was failing
 
 <img width="317" alt="bash_test" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/4b29a7b8-1775-4d6b-8c9f-18696de47058">
 
-Keys pressed: Pressed `<enter>` again and put in the command `bash test.sh` to run the tests (note: I could have also presesed `<up> <up> <up> <up>`. The tests passed (as shown in the screenshot).
+Keys pressed: Pressed `<enter>` again and put in the command `bash test.sh` and `<enter>` to run the tests (note: I could have also presesed `<up> <up> <up> <up>`. The tests passed (as shown in the screenshot).
 
 **Commit changes through using `git add`, `git push`, and `git commit -m`**
 
 <img width="466" alt="Screenshot 2024-02-27 085126" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/49c97082-eabc-4cf3-93f9-7fe1ce9268a6">
 
-Keys pressed: Pressed `<enter>` and ran `git add.` to add all the changes. `<enter>` again to type `git push` and `<enter>` to type `git commit -m 'fixed the issue'`.
+Keys pressed: Pressed `<enter>` and ran `git add.` `<enter>` to add all the changes. Type `git push`  and `<enter>` to type `git commit -m 'fixed the issue'`.
 
