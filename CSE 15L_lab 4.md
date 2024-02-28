@@ -31,6 +31,7 @@ Keys pressed: Used `<enter>` to get to the next command, and then typed `cd lab7
 
 <img width="518" alt="vim_edit" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/79bf4347-6ff5-42a8-8537-7562304968eb">
 
+Keys pressed: In order to be able to edit the code and see what test was failing I first used `<enter>` to get to the next line and put in the command `ls` to see what differetn files were available. Pressed `<enter>` again and used `vim ListExamples.java` to get the ability to edit the `ListExamples.java` file. Pressed `<up``<up``<up``<up``<up``<up` `l``l``l``l``l``l``l``l``l``l``l` and then pressed `i` to insert and `2` and on top of the `1` I pressed `x` to delete it. Then used `:wq` to save and exit. 
 
 # Step 8
 
@@ -38,9 +39,11 @@ Keys pressed: Used `<enter>` to get to the next command, and then typed `cd lab7
 
 <img width="317" alt="bash_test" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/4b29a7b8-1775-4d6b-8c9f-18696de47058">
 
+Keys pressed: Pressed `<enter>` again and put in the command `bash test.sh` to run the tests (note: I could have also presesed `<up> <up> <up> <up>`. The tests passed (as shown in the screenshot).
 
-**Commi changes through using `git add`, `git push`, and `git commit -m`**
+**Commit changes through using `git add`, `git push`, and `git commit -m`**
 
 <img width="466" alt="Screenshot 2024-02-27 085126" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/49c97082-eabc-4cf3-93f9-7fe1ce9268a6">
 
+Keys pressed: Pressed `<enter>` and ran `git add.` to add all the changes. `<enter>` again to type `git push` and `<enter>` to type `git commit -m 'fixed the issue'`.
 
