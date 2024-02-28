@@ -7,7 +7,7 @@
 
 <img width="445" alt="ieng6_log in" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/bfe09e5e-3c9b-4ad9-a62b-b3b8bdee44be">
 
-Keys pressed: pressed `<enter>`, then typed out `ssh knalabotu@ieng6.ucsd.edu`, pressed `<enter` and put in my password and then pressed `<enter>`
+Keys pressed: pressed `<enter>`, then typed out `ssh knalabotu@ieng6.ucsd.edu`, pressed `<enter>` and put in my password and then pressed `<enter>`
 
 # Step 5
 
@@ -31,7 +31,7 @@ Keys pressed: Used `<enter>` to get to the next command, and then typed `cd lab7
 
 <img width="518" alt="vim_edit" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/79bf4347-6ff5-42a8-8537-7562304968eb">
 
-Keys pressed: In order to be able to edit the code and see what test was failing I first used `<enter>` to get to the next line and put in the command `ls` to see what differetn files were available. Pressed `<enter>` again and used `vim ListExamples.java` to get the ability to edit the `ListExamples.java` file. Pressed `<up``<up``<up``<up``<up``<up` `l``l``l``l``l``l``l``l``l``l``l` and then pressed `i` to insert and `2` and on top of the `1` I pressed `x` to delete it. Then used `:wq` to save and exit. 
+Keys pressed: In order to be able to edit the code and see what test was failing I first used `<enter>` to get to the next line and put in the command `ls` to see what differetn files were available. Pressed `<enter>` again and used `vim ListExamples.java` to get the ability to edit the `ListExamples.java` file. Pressed `<up> <up> <up> <up> <up> <up>` `<l> <l> <l> <l> <l> <l> <l> <l> <l> <l> <l>` and then pressed `<i>` to insert and `2`. Then `<l>` and on top of the `1` I pressed `x` to delete it. Used `:wq` to save and exit. 
 
 # Step 8
 
