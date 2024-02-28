@@ -41,6 +41,8 @@ Keys pressed: In order to be able to edit the code and see what test was failing
 
 Keys pressed: Pressed `<enter>` again and put in the command `bash test.sh` and `<enter>` to run the tests (note: I could have also presesed `<up> <up> <up> <up>`. The tests passed (as shown in the screenshot).
 
+# Step 9
+
 **Commit changes through using `git add`, `git push`, and `git commit -m`**
 
 <img width="466" alt="Screenshot 2024-02-27 085126" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/49c97082-eabc-4cf3-93f9-7fe1ce9268a6">
