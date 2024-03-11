@@ -47,5 +47,10 @@ Keys pressed: Pressed `<enter>` again and put in the command `bash test.sh` and 
 
 <img width="466" alt="Screenshot 2024-02-27 085126" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/49c97082-eabc-4cf3-93f9-7fe1ce9268a6">
 
-Keys pressed: Pressed `<enter>` and ran `git add.` `<enter>` to add all the changes. Type `git push`  and `<enter>` to type `git commit -m 'fixed the issue'`.
+Keys pressed: Pressed `<enter>` and ran `git add`, `<enter>` to add all the changes. Then type `git commit -m 'fixed the issue'` and `<enter>` to commit the changes. Type `git push` and `<enter>`.
+
+Function of these commands: 
+- `git add` - this command queues in the changes that are to be made by the commit.
+- `git commit -m ""` - this command commits the changes that were added into the local repository.
+- `git push` - pushes local repository changes to a remote repository.
 
