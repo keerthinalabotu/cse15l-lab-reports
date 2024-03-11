@@ -55,3 +55,5 @@ Function of these commands:
 - `git commit -m ""` - this command commits the changes that were added into the local repository.
 - `git push` - pushes local repository changes to a remote repository.
 
+After this step the commit should be visible in the github. 
+
