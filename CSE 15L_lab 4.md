@@ -45,7 +45,8 @@ Keys pressed: Pressed `<enter>` again and put in the command `bash test.sh` and 
 
 **Commit changes through using `git add`, `git push`, and `git commit -m`**
 
-<img width="466" alt="Screenshot 2024-02-27 085126" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/49c97082-eabc-4cf3-93f9-7fe1ce9268a6">
+<img width="520" alt="redo" src="https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/21c0bfef-9c1d-4631-baec-d0bf6a976920">
+
 
 Keys pressed: Pressed `<enter>` and ran `git add`, `<enter>` to add all the changes. Then type `git commit -m 'fixed the issue'` and `<enter>` to commit the changes. Type `git push` and `<enter>`.
 
