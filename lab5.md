@@ -59,6 +59,7 @@ ________________________________________________________________________
 **The file & directory structure needed**
 
 - The file structure needed looks like this:
+  
 ![image](https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/153b7fa4-1e12-4e8f-8a55-03fa9d92f8c7)
 
 The contents of each file before fixing the bug
