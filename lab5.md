@@ -1,4 +1,4 @@
-## CSE 15L Lab 4
+## CSE 15L Lab 5
 
 **Student Question:**
 
@@ -42,7 +42,7 @@ ________________________________________________________________________________
 
 **Information that student got from trying this:**
 
-The student probably understood from this that the value that they pass into the copy[] for the second if loop is never updated with the "index" that they are supposed to add. They also don't take into account the index out of bounds which they will eventually see as a problem when they see their terminal output.
+The student probably understood from this that the value that they pass into the `copy[]` for the second if loop is never updated with the `index` that they are supposed to add. They also don't take into account the index out of bounds which they will eventually see as a problem when they see their terminal output.
 
 After making a change to their code:
 
@@ -51,6 +51,7 @@ After making a change to their code:
 Terminal output:
 
 ![image](https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/e56ec222-d56c-4f25-ba5d-2f18a332a04c)
+
 
 ________________________________________________________________________
 
@@ -512,14 +513,14 @@ public class MyArrayList<E> implements MyList<E>{
 ```
 
 **The full command line (or lines) you ran to trigger the bug**
-- bash test.sh
+- `bash test.sh`
 
 - ![image](https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/369854b2-b2b7-479e-a545-f17581f9fe78)
 
 
 **A description of what to edit to fix the bug**
 
-- To fix the error we change the value we use to access a value within the copy array. Originally we had copy[i] in the second if loop. We change that to copy[(i+index)%this.length].
+- To fix the error we change the value we use to access a value within the `copy` array. Originally we had 'copy[i]` in the second if loop. We change that to `copy[(i+index)%this.length]`.
 
   
 - ![image](https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/9eaa525f-fa11-4502-97a6-d878bd955aa4)
@@ -532,9 +533,9 @@ ________________________________________________________________________________
 
 # Reflection:
 
-Something cool that I learned this quarter was using vim. I had no idea that we could edit code directly in the terminal and I thought that was really cool (even though editing the code is a bit hard using the "i" and "x"). It was interesting that it's accessible through a local editor like vscode or wherever you want to edit it.
+Something cool that I learned this quarter was using `vim`. I had no idea that we could edit code directly in the terminal and I thought that was really cool (even though editing the code is a bit hard using the `i` and `x`). It was interesting that it's accessible through a local editor like `vscode` or wherever you want to edit it.
 
-In addition, I also never really knew how to use git commands so I found it to be cool how I could save the edits that I made directly from my local machine to the github, making it accessible to people using the github repo. 
+In addition, I also never really knew how to use `git commands` so I found it to be cool how I could save the edits that I made directly from my local machine to the Github, making it accessible to people using the github repo. 
 
 
 
