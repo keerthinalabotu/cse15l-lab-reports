@@ -520,7 +520,7 @@ public class MyArrayList<E> implements MyList<E>{
 
 **A description of what to edit to fix the bug**
 
-- To fix the error we change the value we use to access a value within the `copy` array. Originally we had 'copy[i]` in the second if loop. We change that to `copy[(i+index)%this.length]`.
+- To fix the error we change the value we use to access a value within the `copy` array. Originally we had `copy[i]` in the second if loop. We change that to `copy[(i+index)%this.length]`.
 
   
 - ![image](https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/9eaa525f-fa11-4502-97a6-d878bd955aa4)
