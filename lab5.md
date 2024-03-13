@@ -4,7 +4,7 @@
 
 Hello,
 
-My implementation for Rotating an array list is not working when I run my bash grade.sh. I believe it might have something to do with how I'm accessing values within the copy array and assign them to the values array. 
+My implementation for rotating an array list is not working when I run my `bash grade.sh`. I believe it might have something to do with how I'm accessing values within the `copy` array and assign them to the values array. 
 
 The errors I received when running the `bash grade.sh` was this: 
 ![image](https://github.com/keerthinalabotu/cse15l-lab-reports/assets/144857467/4ae615d0-2eb0-4f8a-b3d5-55584b596f86)
